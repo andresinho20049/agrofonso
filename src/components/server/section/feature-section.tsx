@@ -4,7 +4,7 @@ export const FeatureSection = () => {
 	return (
 		<section className="max-w-screen-2xl mx-auto py-10 px-10 lg:px-0">
 			<div className="max-w-xl mx-auto">
-				<p className="text-sm text-center tracking-widest text-green-700 font-bold uppercase">
+				<p className="text-sm text-center tracking-widest text-primary font-bold uppercase">
 					Nossa produção é sustentável e respeita o meio ambiente
 				</p>
 
