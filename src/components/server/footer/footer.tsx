@@ -130,10 +130,18 @@ export const FooterComponent = () => {
 						</div>
 						<aside>
 							<nav className="flex items-end gap-8">
-								<LinkCopyright href={"/"}>
+								<LinkCopyright
+									href={
+										"https://github.com/andresinho20049/onion-garden/blob/main/SECURITY.md"
+									}
+								>
 									Privacy Policy
 								</LinkCopyright>
-								<LinkCopyright href={"/"}>
+								<LinkCopyright
+									href={
+										"https://github.com/andresinho20049/onion-garden/blob/main/LICENSE"
+									}
+								>
 									Terms & Conditions
 								</LinkCopyright>
 							</nav>
