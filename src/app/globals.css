@@ -22,7 +22,7 @@
 		@apply text-base/loose font-semibold tracking-wider text-primary select-none;
 	}
 	a {
-		@apply text-base/normal font-medium tracking-normal text-stone-200 hover:text-accent underline decoration-cyan-500;
+		@apply text-base/normal font-medium tracking-normal text-green-100 hover:text-accent no-underline hover:underline decoration-accent;
 	}
 }
 

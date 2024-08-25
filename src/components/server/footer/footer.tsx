@@ -38,7 +38,7 @@ export const FooterComponent = () => {
 							</aside>
 						</FlexContainer>
 						<FlexContainer title="Sobre nós">
-							<ul className="prose prose-sm text-center">
+							<ul className="text-center">
 								<li>
 									<span>
 										{" "}
