@@ -30,7 +30,7 @@ export default function Sobre() {
 		<section className="min-h-dvh">
 			<div className="max-w-screen-2xl mx-auto mt-10 mb-24 flex max-sm:flex-col gap-4">
 				<div className="w-full md:w-1/2 grid flex-shrink-0 gap-2 grid-cols-2 md:grid-cols-4 max-sm:px-8">
-					<div className="max-sm:hidden col-span-3">
+					<div className="max-sm:col-span-2 col-span-3">
 						<ImageGridItem src="/img/na_roca.jpg" />
 					</div>
 					<div className="col-span-1 row-span-3">
@@ -39,13 +39,13 @@ export default function Sobre() {
 					<div className="col-span-1">
 						<ImageGridItem src="/img/macro_photo.jpg" />
 					</div>
-					<div className="col-span-1 md:col-span-2">
+					<div className="max-sm:hidden col-span-2">
 						<ImageGridItem src="/img/cebola_caminhao.jpeg" />
 					</div>
-					<div className="col-span-1 md:col-span-2">
+					<div className="max-sm:hidden col-span-2">
 						<ImageGridItem src="/img/cebola_cesta.jpg" />
 					</div>
-					<div className="max-sm:hidden col-span-1">
+					<div className="max-sm:row-span-2 col-span-1">
 						<ImageGridItem src="/img/coleta_cebola.jpeg" />
 					</div>
 				</div>
@@ -60,7 +60,7 @@ export default function Sobre() {
 								className="w-64 md:w-96"
 							/>
 						</h1>
-						<h2>
+						<h2 className="max-sm:text-2xl">
 							Priorize a qualidade e o sabor com nossos produtos
 							agrícolas de alta qualidade
 						</h2>
