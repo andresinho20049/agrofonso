@@ -36,7 +36,7 @@ export const FollowUsSection = () => {
 				</div>
 				<InstragramEmbedCustom
 					url="https://www.instagram.com/p/C6mvk6Nu4Td"
-					width={360}
+					width={"100%"}
 					className="block lg:hidden"
 				/>
 			</div>
