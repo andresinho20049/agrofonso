@@ -19,7 +19,7 @@ export const HomeHero = () => {
 		<section className="relative w-full h-64 lg:h-96">
 			<div className="absolute inset-0 opacity-30">
 				<img
-					src="/img/2c1a585f-bab1-4300-bf9b-52d154d687e5.jpeg"
+					src="/img/cebola_caminhao.jpeg"
 					alt="Background Image"
 					className="object-cover object-center w-full h-full"
 				/>

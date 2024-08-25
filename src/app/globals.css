@@ -50,6 +50,10 @@ body {
 		rgb(var(--background-start-rgb));
 }
 
+.about-container h3 {
+	text-align: center;
+}
+
 @layer utilities {
 	.text-balance {
 		text-wrap: balance;
