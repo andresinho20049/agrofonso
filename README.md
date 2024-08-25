@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Onion Garden
 
-## Getting Started
+Welcome to the Onion Garden project! This repository contains the source code for our website, built using Next.js, React, and Tailwind CSS.
 
-First, run the development server:
+## About project
+
+### Onion Garden: Sowing the Seeds of Success
+
+Welcome to Onion Garden, where passion and dedication come together to bring you the freshest, highest-quality produce from our farm in Capivara, Bahia. Our journey began as a small group of farmers with a shared vision: to cultivate a better future for our community.
+
+### From Seed to Plate
+
+Our story starts with the selection of premium seeds, carefully chosen to ensure the best possible outcome. With each passing day, our team works tirelessly to nurture these seeds into the freshest, most delicious Cebola (onions), Tomate (tomatoes), and Feijão (beans) you'll ever taste.
+
+### More Than Just a Farm
+
+While we're proud of our core products, we don't stop there. We're always looking for ways to innovate and improve, whether it's through new crop varieties or sustainable farming practices. Our commitment to quality and customer satisfaction is unwavering, and we're excited to share our journey with you.
+
+### Join the Onion Garden Community
+
+Stay updated on our latest news, behind-the-scenes peeks at farm life, and mouthwatering recipes featuring our products! Follow us on Instagram [@OnionGarden](https://www.instagram.com/oniongarde/) and be part of our growing community!
+
+## Technologies Used
+
+-   **Next.js**: A popular React-based framework for building server-side rendered (SSR) and statically generated websites.
+-   **React**: A JavaScript library for building user interfaces.
+-   **Tailwind CSS**: A utility-first CSS framework for styling our website.
+
+## Project Structure
+
+The project structure is as follows:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+onion-garden/
+README.md
+next.config.mjs
+tailwind.config.ts
+package.json
+public
+src
+...
+src/
+app
+components
+hooks
+...
+app/
+contato
+sobre
+favicon.ico
+globals.css
+layout.tsx
+page.tsx
+...
+components/
+client
+server
+...
+hooks/
+usePage.ts
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## How to Run the Project
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+To run the project, follow these steps:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Clone this repository: \
+   `git clone https://github.com/andresinho20049/onion-garden.git`
+2. Install dependencies: `npm install`
+3. Start the development server: `npm run dev`
+4. Open your web browser and navigate to `http://localhost:3000`
 
-## Learn More
+## Contribution Guidelines
 
-To learn more about Next.js, take a look at the following resources:
+If you'd like to contribute to this project, please follow these guidelines:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Fork this repository: \
+   `git fork https://github.com/andresinho20049/onion-garden.git`
+2. Create a new branch for your changes: `git branch my-changes`
+3. Make your changes and commit them: \
+   `git add . && git commit -m "Added new feature"`
+4. Push your changes to the remote repository: \
+   `git push origin my-changes`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+We appreciate any contributions, no matter how small!
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is licensed under the MIT License.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Considerations
+
+Discover the incredible world of onions and how they can bring people together! From farm-to-table meals to medicinal benefits, learn how nature's bounty can enrich your life. Follow [@OnionGarden](https://www.instagram.com/oniongarde/) for inspiring stories and stunning visuals!
+
+> **Project**: Onion Garden \
+> **Team**:
+>
+> -   Maciel (Stackholder)
+> -   André (Developer)
