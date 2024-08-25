@@ -1,16 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const ContainerTest = ({ num }: { num: number }) => (
-	<div
-		className={`${
-			num === 1 ? "bg-primary" : num === 2 ? "bg-second" : "bg-accent"
-		} h-full w-full min-h-48 min-w-48 flex items-center justify-center`}
-	>
-		<p>{`Number: ${num}`}</p>
-	</div>
-);
-
 type ImageGridItemPropsType = {
 	src: string;
 	height?: number;
