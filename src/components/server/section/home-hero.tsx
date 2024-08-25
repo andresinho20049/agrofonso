@@ -37,6 +37,7 @@ export const HomeHero = () => {
 				<div className="hidden lg:flex flex-wrap gap-2 my-4 w-full">
 					{showCases.map((sc) => (
 						<ShowcaseImageWithTextSimple
+							key={sc.imgSrc}
 							imgSrc={sc.imgSrc}
 							text={sc.text}
 						/>

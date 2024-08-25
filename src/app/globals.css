@@ -7,10 +7,10 @@
 		@apply text-5xl font-bold tracking-wide text-center capitalize text-pretty text-primary select-none;
 	}
 	h2 {
-		@apply text-3xl font-semibold tracking-normal text-center text-balance text-stone-500;
+		@apply text-3xl font-semibold tracking-normal text-center text-balance text-stone-500 select-none;
 	}
 	h3 {
-		@apply text-xl font-medium tracking-normal text-start text-balance text-stone-200;
+		@apply text-xl font-medium tracking-normal text-start text-balance text-stone-200 select-none;
 	}
 	p {
 		@apply text-base/relaxed font-normal tracking-normal text-justify text-balance text-stone-100 whitespace-pre-line;
