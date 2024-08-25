@@ -2,32 +2,56 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+	h1 {
+		@apply text-5xl font-bold tracking-wide text-center capitalize text-pretty text-green-700 select-none;
+	}
+	h2 {
+		@apply text-3xl font-semibold tracking-normal text-center text-balance text-stone-500;
+	}
+	h3 {
+		@apply text-xl font-medium tracking-normal text-start text-balance text-stone-200;
+	}
+	p {
+		@apply text-base/relaxed font-normal tracking-normal text-justify text-balance text-stone-100 whitespace-pre-wrap;
+	}
+	span {
+		@apply text-base/relaxed font-light tracking-normal text-stone-100 select-none;
+	}
+	strong {
+		@apply text-base/loose font-semibold tracking-wider text-green-700 select-none;
+	}
+	a {
+		@apply text-base/normal font-medium tracking-normal text-stone-200 hover:text-green-500 underline decoration-cyan-500;
+	}
+}
+
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+	--foreground-rgb: 0, 0, 0;
+	--background-start-rgb: 214, 219, 220;
+	--background-end-rgb: 255, 255, 255;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+	:root {
+		--foreground-rgb: 255, 255, 255;
+		--background-start-rgb: 0, 0, 0;
+		--background-end-rgb: 0, 0, 0;
+	}
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+	color: rgb(var(--foreground-rgb));
+	background: linear-gradient(
+			to bottom,
+			transparent,
+			rgb(var(--background-end-rgb))
+		)
+		rgb(var(--background-start-rgb));
 }
 
 @layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+	.text-balance {
+		text-wrap: balance;
+	}
 }

@@ -16,7 +16,7 @@ const showCases: ShowcaseImageWithTextSimpleType[] = [
 
 export const HomeHero = () => {
 	return (
-		<section className="relative w-full h-96">
+		<section className="relative w-full h-64 lg:h-96">
 			<div className="absolute inset-0 opacity-30">
 				<img
 					src="/img/2c1a585f-bab1-4300-bf9b-52d154d687e5.jpeg"
@@ -26,17 +26,15 @@ export const HomeHero = () => {
 			</div>
 			<div className="absolute inset-9 flex flex-col items-start justify-end">
 				<div className="md:w-1/2 mb-4 md:mb-0">
-					<h1 className="text-green-800 hover:text-green-700 font-medium text-4xl md:text-5xl shadow-md leading-tight mb-2 select-none">
-						Onion Garden
-					</h1>
-					<p className="font-regular text-xl mb-8 mt-4">
+					<h1 className="text-start">Onion Garden</h1>
+					<h2 className="text-lg lg:text-2xl text-start">
 						Sementes de qualidade, raízes fortes.
 						<br />
 						Cultivando o futuro, desde a Bahia com sabor e
 						qualidade, em todo o mundo.
-					</p>
+					</h2>
 				</div>
-				<div className="hidden lg:flex flex-wrap text-center justify-center">
+				<div className="hidden lg:flex flex-wrap gap-2 my-4 w-full">
 					{showCases.map((sc) => (
 						<ShowcaseImageWithTextSimple
 							imgSrc={sc.imgSrc}

@@ -15,9 +15,9 @@ export const NavBarLink = ({ href, label, ...props }: NavBarLinkType) => {
 	return (
 		<Link
 			href={href}
-			className={`block md:inline-block ${
-				href === pathname ? "text-green-700" : "text-white"
-			} hover:text-green-400 px-3 py-3 md:border-none`}
+			className={`no-underline ${
+				href === pathname ? "text-green-700" : ""
+			} md:border-none`}
 			{...props}
 		>
 			{label}

@@ -15,7 +15,7 @@ export const LinkAppearanceButton = ({
 	return (
 		<Link
 			aria-label={href}
-			className="flex items-center justify-center gap-1 text-white hover:text-green-700 transition-colors duration-200 ease-in dark:bg-transparent text-md font-medium px-4 py-1 border-2 border-green-200 border-y-green-500 hover:border-y-green-200 transition-colors rounded-md"
+			className="flex items-center justify-center gap-1 no-underline text-center transition-colors duration-200 ease-in dark:bg-transparent px-4 py-2 border-2 border-green-200 border-y-green-500 hover:border-y-green-200 rounded-md"
 			href={href}
 			target={isBlank ? "_blank" : ""}
 			rel={isBlank ? "noopener noreferrer" : ""}

@@ -7,7 +7,7 @@ export type ContactButtonType = {
 
 export const ContactButton = ({ imgSrc, text }: ContactButtonType) => {
 	return (
-		<div className="flex items-center h-10 w-30 rounded-md border-2 border-blue-500 text-blue-500 group hover:border-cyan-500 hover:text-cyan-500 font-medium p-2">
+		<div className="flex items-center h-10 w-30 rounded-md border-2 border-blue-500 group hover:border-cyan-500 p-2">
 			<Image
 				alt={text}
 				src={imgSrc}
@@ -15,7 +15,7 @@ export const ContactButton = ({ imgSrc, text }: ContactButtonType) => {
 				width={36}
 				height={36}
 			/>
-			<span>{` ${text}`}</span>
+			<span className="group-hover:text-cyan-500">{` ${text}`}</span>
 		</div>
 	);
 };
