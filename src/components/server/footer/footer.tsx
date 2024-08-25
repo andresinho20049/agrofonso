@@ -157,7 +157,7 @@ const LinkCopyright = ({
 	<Link
 		href={href}
 		{...props}
-		className="text-sm text-center no-underline hover:underline decoration-cyan-700 hover:text-cyan-700"
+		className="text-sm text-center text-white hover:text-cyan-700 no-underline hover:underline decoration-cyan-700"
 	>
 		{children}
 	</Link>
