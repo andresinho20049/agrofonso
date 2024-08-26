@@ -8,7 +8,7 @@ export type FollowUsSectionType = {
 
 export const FollowUsSection = () => {
 	return (
-		<section className="min-h-screen bg-neutral-900">
+		<section className="min-h-screen bg-second-light dark:bg-second-dark">
 			<div className="max-w-screen-2xl mx-auto px-4 space-y-10">
 				<div>
 					<h1 className="flex items-center justify-center">

@@ -36,11 +36,11 @@ const LinkContato = ({
 export default function Contato() {
 	return (
 		<section>
-			<div className="bg-neutral-900">
+			<div className="bg-second-light dark:bg-second-dark">
 				<div className="max-w-screen-2xl mx-auto grid grid-cols-1 lg:grid-cols-2 py-20 gap-8">
 					<div className="w-full px-10 space-y-8">
 						<h1>Contate-nos</h1>
-						<p>
+						<p className="text-center">
 							Sinta-se à vontade para entrar em contato conosco
 							para quaisquer dúvidas ou assistência. Estamos aqui
 							para ajudar!

@@ -41,7 +41,7 @@ export const FeatureSection = () => {
 						src="/img/tomate_showcase.jpeg"
 						width={1600}
 						height={1200}
-						className="w-full rounded-xl shadow-xl"
+						className="w-full rounded-xl shadow-2xl shadow-black"
 					/>
 				</div>
 			</div>

@@ -1,29 +1,6 @@
+import { ImageGridItem } from "@onion/components/server/image/image-grid";
 import Image from "next/image";
 import Link from "next/link";
-
-type ImageGridItemPropsType = {
-	src: string;
-	height?: number;
-	width?: number;
-	alt?: string;
-};
-
-const ImageGridItem = ({
-	alt = "Onion garden Grid",
-	src,
-	height = 1200,
-	width = 1600,
-}: ImageGridItemPropsType) => {
-	return (
-		<Image
-			src={src}
-			alt={alt}
-			width={width}
-			height={height}
-			className="h-full w-full object-cover object-center rounded-xl hover:scale-95 transform transition duration-500"
-		/>
-	);
-};
 
 export default function Sobre() {
 	return (

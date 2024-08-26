@@ -21,7 +21,7 @@ export default function Home() {
 			<FullHeroSection
 				msg="Nossa experiência em cultivo é a garantia da melhor qualidade para você e sua família."
 				title={
-					<h2 className="text-start text-stone-50 text-3xl lg:text-5xl">
+					<h2 className="text-start text-black dark:text-stone-50 text-3xl lg:text-5xl">
 						Faça parte do movimento que prioriza{" "}
 						<strong className="text-3xl lg:text-5xl">
 							qualidade e sabor

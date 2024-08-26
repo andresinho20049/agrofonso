@@ -1,8 +1,9 @@
 import Image from "next/image";
+import { ImageGridItem } from "../image/image-grid";
 
 export const ResumeWithImageGridSection = () => {
 	return (
-		<section className="min-h-screen bg-neutral-900 my-0 py-8">
+		<section className="min-h-screen bg-second-light dark:bg-second-dark my-0 py-8">
 			<div className="max-w-screen-2xl mx-auto ">
 				<div className="block lg:hidden">
 					<TitleSection />
@@ -18,64 +19,34 @@ export const ResumeWithImageGridSection = () => {
 
 const TitleSection = () => {
 	return (
-		<header>
+		<div>
 			<h1>Onion Garden</h1>
 
 			<h2 className="max-sm:text-xl">
 				O Avanço da Safra Brasileira: Uma História de Sucesso e
 				Desenvolvimento
 			</h2>
-		</header>
+		</div>
 	);
 };
 
 const GridImage = () => {
 	return (
 		<div className="grid lg:w-2/3 grid-cols-4 gap-4">
-			<div className="h-72 col-span-4 sm:col-span-4 relative">
-				<Image
-					width={1287}
-					height={600}
-					src={"/img/cebola_cesta.jpg"}
-					alt="fresh beets"
-					className="absolute inset-0 h-full w-full object-cover rounded-md"
-				/>
+			<div className="col-span-4 sm:col-span-4 relative max-h-72">
+				<ImageGridItem src={"/img/cebola_cesta.jpg"} />
 			</div>
-			<div className="max-sm:hidden h-64 col-span-4 sm:col-span-2 relative">
-				<Image
-					width={1287}
-					height={600}
-					src={"/img/na_roca.jpg"}
-					alt="red veggies"
-					className="absolute inset-0 h-full w-full object-cover rounded-lg"
-				/>
+			<div className="max-sm:hidden col-span-4 sm:col-span-2 relative max-h-64">
+				<ImageGridItem src={"/img/na_roca.jpg"} />
 			</div>
-			<div className="max-sm:hidden h-full col-span-4 sm:col-span-2 row-span-2 relative">
-				<Image
-					width={1287}
-					height={600}
-					src={"/img/tete_cabrido.gif"}
-					alt="asperagas"
-					className="absolute inset-0 h-full w-full object-cover rounded-sm"
-				/>
+			<div className="max-sm:hidden col-span-4 sm:col-span-2 row-span-2 relative max-h-[35rem]">
+				<ImageGridItem src={"/img/tete_cabrido.gif"} />
 			</div>
-			<div className="h-64 col-span-4 sm:col-span-1 relative">
-				<Image
-					width={1287}
-					height={600}
-					src={"/img/tratozera-min.gif"}
-					alt="carrots"
-					className="absolute inset-0 h-full w-full object-cover rounded-md"
-				/>
+			<div className="col-span-4 sm:col-span-1 relative max-sm:max-h-56 max-h-72">
+				<ImageGridItem src={"/img/tratozera-min.gif"} />
 			</div>
-			<div className="h-64 col-span-4 sm:col-span-1 relative">
-				<Image
-					width={1287}
-					height={600}
-					src={"/img/macro_photo.jpg"}
-					alt="tomato tomato"
-					className="absolute inset-0 h-full w-full object-cover rounded-md"
-				/>
+			<div className="col-span-4 sm:col-span-1 relative sm:max-h-72">
+				<ImageGridItem src={"/img/macro_photo.jpg"} />
 			</div>
 		</div>
 	);

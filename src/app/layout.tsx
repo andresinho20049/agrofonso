@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { NavBar } from "@onion/components/client/navbar/navbar";
 import { FooterComponent } from "@onion/components/server/footer/footer";
+import { ThemeProvider } from "@onion/context/ThemeContext";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,15 +29,21 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html lang="pt-BR">
+		<html lang="pt-BR" suppressHydrationWarning>
 			<body className={inter.className}>
-				<header>
-					<NavBar />
-				</header>
-				<main>{children}</main>
-				<footer>
-					<FooterComponent />
-				</footer>
+				<ThemeProvider
+					attribute="class"
+					defaultTheme="system"
+					enableSystem
+				>
+					<header>
+						<NavBar />
+					</header>
+					<main>{children}</main>
+					<footer>
+						<FooterComponent />
+					</footer>
+				</ThemeProvider>
 			</body>
 		</html>
 	);

@@ -5,12 +5,13 @@ import { useState } from "react";
 import { HamburgerButton } from "./hamburger";
 import { LogoComponent } from "./Logo";
 import { NavBarLink } from "./navbar-link";
+import { ThemeToggle } from "./theme-toggle";
 
 export const NavBar = () => {
 	const [open, setOpen] = useState(false);
 
 	return (
-		<nav className="flex flex-wrap items-center justify-between p-3 bg-black">
+		<nav className="flex flex-wrap items-center justify-between p-3">
 			<LogoComponent />
 			<div className="flex md:hidden">
 				<HamburgerButton open={open} setOpen={setOpen} />
@@ -30,12 +31,7 @@ export const NavBar = () => {
 					open ? "block" : "hidden"
 				} w-full text-end md:flex md:w-auto px-2 py-2 md:rounded`}
 			>
-				{/* <div className="flex justify-end">
-					<ContactButton
-						text="Contato"
-						imgSrc="/icons/telegram.svg"
-					/>
-				</div> */}
+				<ThemeToggle />
 			</div>
 		</nav>
 	);
