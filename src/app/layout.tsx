@@ -4,6 +4,8 @@ import "./globals.css";
 import { NavBar } from "@onion/components/client/navbar/navbar";
 import { FooterComponent } from "@onion/components/server/footer/footer";
 import { ThemeProvider } from "@onion/context/ThemeContext";
+import Script from "next/script";
+import { GoogleAnalytics, GoogleTagManager } from "@next/third-parties/google";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -36,6 +38,14 @@ export default function RootLayout({
 					defaultTheme="system"
 					enableSystem
 				>
+					<Script
+						id="ads-google-1"
+						async
+						src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.ADS_GID}`}
+						crossOrigin="anonymous"
+					/>
+					<GoogleTagManager gtmId={process.env.GTMID || ""} />
+					<GoogleAnalytics gaId={process.env.GAID || ""} />
 					<header>
 						<NavBar />
 					</header>

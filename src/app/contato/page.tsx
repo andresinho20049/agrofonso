@@ -1,3 +1,4 @@
+import { AdsenseMultiComponent } from "@onion/components/client/google/AdsenseComponent";
 import { InstragramEmbedCustom } from "@onion/components/client/instagram/instagram-embeded";
 import { WaveDiviver } from "@onion/components/server/divider/wave-divider";
 import Image from "next/image";
@@ -82,6 +83,11 @@ export default function Contato() {
 							captioned
 							className="block md:hidden"
 						/>
+					</div>
+				</div>
+				<div className="max-w-screen-2xl mx-auto p-8 flex justify-center align-middle">
+					<div className="w-5/6 h-4/6">
+						<AdsenseMultiComponent />
 					</div>
 				</div>
 			</div>

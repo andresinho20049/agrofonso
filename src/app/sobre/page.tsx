@@ -1,3 +1,7 @@
+import {
+	AdsenseMultiComponent,
+	AdsenseVerticalComponent,
+} from "@onion/components/client/google/AdsenseComponent";
 import { ImageGridItem } from "@onion/components/server/image/image-grid";
 import Image from "next/image";
 import Link from "next/link";
@@ -92,6 +96,14 @@ export default function Sobre() {
 							e seja parte de nossa comunidade em crescimento!
 						</p>
 					</div>
+				</div>
+			</div>
+			<div className="max-w-screen-2xl mx-auto p-8 flex justify-between align-middle">
+				<div className="w-3/6 h-2/6">
+					<AdsenseMultiComponent />
+				</div>
+				<div className="w-2/6 h-2/6">
+					<AdsenseVerticalComponent />
 				</div>
 			</div>
 		</section>

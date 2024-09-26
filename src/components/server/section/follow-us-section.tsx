@@ -1,3 +1,4 @@
+import { AdsenseVerticalComponent } from "@onion/components/client/google/AdsenseComponent";
 import { InstragramEmbedCustom } from "@onion/components/client/instagram/instagram-embeded";
 import { ReactNode } from "react";
 
@@ -21,18 +22,12 @@ export const FollowUsSection = () => {
 				</div>
 
 				<div className="hidden lg:grid grid-cols-3">
-					<InstragramEmbedCustom
-						url="https://www.instagram.com/p/C5uMLRzxQO5/"
-						width={360}
-					/>
+					<AdsenseVerticalComponent />
 					<InstragramEmbedCustom
 						url="https://www.instagram.com/p/C6mvk6Nu4Td"
 						width={360}
 					/>
-					<InstragramEmbedCustom
-						url="https://www.instagram.com/p/C6Pcx07ui9p"
-						width={360}
-					/>
+					<AdsenseVerticalComponent />
 				</div>
 				<InstragramEmbedCustom
 					url="https://www.instagram.com/p/C6mvk6Nu4Td"
