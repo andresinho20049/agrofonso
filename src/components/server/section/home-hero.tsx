@@ -26,7 +26,7 @@ export const HomeHero = () => {
 			</div>
 			<div className="absolute inset-9 flex flex-col items-start justify-end">
 				<div className="md:w-1/2 mb-4 md:mb-0">
-					<h1 className="text-start">Onion Garden</h1>
+					<h1 className="text-start">Agrofonso</h1>
 					<h2 className="text-lg lg:text-2xl text-start">
 						Sementes de qualidade, raízes fortes.
 						<br />

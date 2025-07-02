@@ -1,12 +1,12 @@
-# Onion Garden
+# Agrofonso
 
-Welcome to the Onion Garden project! This repository contains the source code for our website, built using Next.js, React, and Tailwind CSS.
+Welcome to the Agrofonso project! This repository contains the source code for our website, built using Next.js, React, and Tailwind CSS.
 
 ## About project
 
-### Onion Garden: Sowing the Seeds of Success
+### Agrofonso: Sowing the Seeds of Success
 
-Welcome to Onion Garden, where passion and dedication come together to bring you the freshest, highest-quality produce from our farm in Capivara, Bahia. Our journey began as a small group of farmers with a shared vision: to cultivate a better future for our community.
+Welcome to Agrofonso, where passion and dedication come together to bring you the freshest, highest-quality produce from our farm in Capivara, Bahia. Our journey began as a small group of farmers with a shared vision: to cultivate a better future for our community.
 
 ### From Seed to Plate
 
@@ -16,7 +16,7 @@ Our story starts with the selection of premium seeds, carefully chosen to ensure
 
 While we're proud of our core products, we don't stop there. We're always looking for ways to innovate and improve, whether it's through new crop varieties or sustainable farming practices. Our commitment to quality and customer satisfaction is unwavering, and we're excited to share our journey with you.
 
-### Join the Onion Garden Community
+### Join the Agrofonso Community
 
 Stay updated on our latest news, behind-the-scenes peeks at farm life, and mouthwatering recipes featuring our products! Follow us on Instagram [@OnionGarden](https://www.instagram.com/oniongarde/) and be part of our growing community!
 
@@ -92,7 +92,7 @@ This project is licensed under the MIT License.
 
 Discover the incredible world of onions and how they can bring people together! From farm-to-table meals to medicinal benefits, learn how nature's bounty can enrich your life. Follow [@OnionGarden](https://www.instagram.com/oniongarde/) for inspiring stories and stunning visuals!
 
-> **Project**: Onion Garden \
+> **Project**: Agrofonso \
 > **Team**:
 >
 > -   Maciel (Stackholder)

@@ -10,7 +10,7 @@ import { GoogleAnalytics, GoogleTagManager } from "@next/third-parties/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-	title: "Onion Garden",
+	title: "Agrofonso",
 	description:
 		"Um site agro-tech trazendo as inovações do mundo digital unido as inovações do mundo agro, melhor qualidade de colheira e melhor cultivo faz com que sejamos referencia na qualidade dos nossos produtos.",
 	keywords: [
@@ -22,6 +22,7 @@ export const metadata: Metadata = {
 		"roça",
 		"colheita",
 		"verduras",
+		"Agrofonso"
 	],
 };
 

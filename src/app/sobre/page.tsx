@@ -47,7 +47,7 @@ export default function Sobre() {
 						</h2>
 						<h3>Nossa origem</h3>
 						<p>
-							Bem-vindos à Onion Garden, onde paixão e dedicação
+							Bem-vindos à Agrofonso, onde paixão e dedicação
 							se unem para levar você os melhores produtos frescos
 							da nossa fazenda em Capivara, Bahia. Nossa jornada
 							começou como um grupo pequeno de agricultores com
@@ -79,7 +79,7 @@ export default function Sobre() {
 							ansiosos para compartilhar nossa jornada com você.
 						</p>
 
-						<h3>Junte-se à Comunidade da Onion Garden</h3>
+						<h3>Junte-se à Comunidade da Agrofonso</h3>
 
 						<p>
 							Fique atualizado sobre as últimas notícias, visuais

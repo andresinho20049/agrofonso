@@ -8,7 +8,7 @@ type ImageGridItemPropsType = {
 };
 
 export const ImageGridItem = ({
-	alt = "Onion garden Grid",
+	alt = "Agrofonso Grid",
 	src,
 	height = 1200,
 	width = 1600,

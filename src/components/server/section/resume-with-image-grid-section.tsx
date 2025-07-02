@@ -20,7 +20,7 @@ export const ResumeWithImageGridSection = () => {
 const TitleSection = () => {
 	return (
 		<div>
-			<h1>Onion Garden</h1>
+			<h1>Agrofonso</h1>
 
 			<h2 className="max-sm:text-xl">
 				O Avanço da Safra Brasileira: Uma História de Sucesso e
