@@ -45,55 +45,88 @@ export default function Sobre() {
 							Priorize a qualidade e o sabor com nossos produtos
 							agrícolas de alta qualidade
 						</h2>
-						<h3>Nossa origem</h3>
+						<h3>Nossa Essência: Da Terra da Família Agrofonso</h3>
 						<p>
-							Bem-vindos à Agrofonso, onde paixão e dedicação
-							se unem para levar você os melhores produtos frescos
-							da nossa fazenda em Capivara, Bahia. Nossa jornada
-							começou como um grupo pequeno de agricultores com
-							uma visão compartilhada: cultivar um futuro melhor
-							para nossa comunidade.
+							Bem-vindos à Agrofonso! Somos a _agricultura
+							familiar_ que, com as mãos na terra de Canarana,
+							Bahia, transformou um pequeno sonho em uma colheita
+							de sucesso. Desde o início, nossa paixão por
+							cultivar e a dedicação ao solo baiano nos
+							impulsionam a trazer o melhor da fazenda direto para
+							a sua mesa, construindo um legado de trabalho e
+							prosperidade.
+						</p>
+						<h3>
+							Nossa Jornada: Do Coração da Bahia para a Mesa do
+							Brasileiro
+						</h3>
+						<p>
+							Em Canarana, nos tornamos referência na produção de
+							cebolas, um verdadeiro orgulho para nossa família e
+							nossa região. Mas nossa vocação vai além. Com a
+							experiência de mais de uma década e o mesmo cuidado
+							que cultivamos nossas primeiras sementes, hoje
+							produzimos uma vasta gama de culturas. Não somos
+							apenas produtores de cebola, tomate, melancia e
+							feijão, mas sim parte vital do mercado de
+							agronegócio que impulsiona o Brasil para frente,
+							garantindo uma colheita diversificada e de qualidade
+							que chega à mesa de milhões de brasileiros.
 						</p>
 
-						<h3>De Semente a Mesa</h3>
-
+						<h3>Mãos que Plantam, Mentes que Inovam</h3>
 						<p>
-							Nossa história começa com a seleção de sementes de
-							alta qualidade, cuidadosamente escolhidas para
-							garantir o melhor resultado possível. Com cada passo
-							do dia, nosso time trabalha incansavelmente para
-							nutrir essas sementes nas frescas e deliciosas
-							Cebolas (onions), Tomates (tomatoes) e Feijões
-							(beans) que você jamais experimentou.
+							Acreditamos que o futuro do campo se constrói com a
+							sabedoria de gerações e a força da tecnologia. Por
+							isso, no último ano, investimos pesado em maquinário
+							moderno, o que nos permitiu dobrar nossa produção e
+							aprimorar ainda mais a qualidade de tudo o que
+							cultivamos. É o nosso jeito de honrar o passado e
+							semear o progresso, sempre buscando a excelência em
+							cada safra.
+						</p>
+						<h3>
+							O Sabor da Transformação: Nossos Tomates, Valor
+							Agregado
+						</h3>
+						<p>
+							Com a paixão por inovar e agregar valor à nossa
+							produção, estamos agora focados em um novo
+							horizonte: a extração e comercialização dos nossos
+							tomates. Queremos levar o sabor autêntico e a
+							qualidade Agrofonso ainda mais longe, transformando
+							cada fruto em um produto que traga praticidade e o
+							frescor do campo para a sua rotina, com a mesma
+							dedicação que você já conhece.
 						</p>
 
-						<h3>Mais Do Que Uma Fazenda</h3>
+						<h3>
+							Nosso Compromisso: Qualidade que Cultivamos Juntos
+						</h3>
 
 						<p>
-							Enquanto estamos orgulhosos de nossos produtos
-							básicos, não paramos lá. Estamos sempre procurando
-							maneiras de inovar e melhorar, seja através de
-							variedades de culturas novas ou práticas agrícolas
-							sustentáveis. Nossa compromisso com qualidade e
-							satisfação do cliente é incansável, e estamos
-							ansiosos para compartilhar nossa jornada com você.
+							Para a família Agrofonso, cada produto que sai da
+							nossa fazenda carrega o compromisso com a qualidade,
+							a sustentabilidade e, acima de tudo, a satisfação de
+							quem confia no nosso trabalho. Cuidamos da terra com
+							respeito e paixão para que ela continue cuidando de
+							nós e de você, fortalecendo a cadeia produtiva e o
+							agronegócio nacional.
 						</p>
 
-						<h3>Junte-se à Comunidade da Agrofonso</h3>
-
+						<h3>Faça parte da Nossa Família Agrofonso!</h3>
 						<p>
-							Fique atualizado sobre as últimas notícias, visuais
-							detrás das cenas da vida rural e receitas deliciosas
-							que destacam nossos produtos!
-							<br />
-							Siga-nos no Instagram
+							Siga nossa jornada, conheça os bastidores da vida
+							rural e descubra receitas deliciosas com nossos
+							produtos! Acompanhe-nos no Instagram
 							<Link
-								href={"https://www.instagram.com/oniongarde/"}
+								href="https://www.instagram.com/agrofonsoo/"
 								target="_blank"
+								className="text-blue-500 dark:text-cyan-500 hover:underline"
 							>
-								{` @oniongarde `}
+								{" @agrofonso "}
 							</Link>
-							e seja parte de nossa comunidade em crescimento!
+							e cresça com a gente!
 						</p>
 					</div>
 				</div>

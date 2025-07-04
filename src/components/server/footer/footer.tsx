@@ -62,10 +62,10 @@ export const FooterComponent = () => {
 										Sabor, natureza e amor: siga-nos no{" "}
 										<Link
 											href={
-												"https://www.instagram.com/oniongarde?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+												"https://www.instagram.com/agrofonsoo?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
 											}
 										>
-											@OnionGarden
+											@agrofonso
 										</Link>{" "}
 										para descobrir a nossa história
 									</span>
@@ -77,7 +77,7 @@ export const FooterComponent = () => {
 								<div className="flex justify-center gap-8">
 									<Link
 										href={
-											"https://www.instagram.com/oniongarde/"
+											"https://www.instagram.com/agrofonsoo/"
 										}
 										target="_blank"
 									>
@@ -132,14 +132,14 @@ export const FooterComponent = () => {
 							<nav className="flex items-end gap-8">
 								<LinkCopyright
 									href={
-										"https://github.com/andresinho20049/onion-garden/blob/main/SECURITY.md"
+										"https://github.com/andresinho20049/agrofonso/blob/main/SECURITY.md"
 									}
 								>
 									Privacy Policy
 								</LinkCopyright>
 								<LinkCopyright
 									href={
-										"https://github.com/andresinho20049/onion-garden/blob/main/LICENSE"
+										"https://github.com/andresinho20049/agrofonso/blob/main/LICENSE"
 									}
 								>
 									Terms & Conditions

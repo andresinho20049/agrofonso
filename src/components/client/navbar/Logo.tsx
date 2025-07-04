@@ -8,7 +8,7 @@ export const LogoComponent = () => {
 				src={"/logo/Logo.png"}
 				width={2100}
 				height={1500}
-				className="w-24"
+				className="w-28"
 			/>
 		</div>
 	);

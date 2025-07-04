@@ -49,8 +49,8 @@ export default function Contato() {
 
 						<div className="grid grid-cols-2 justify-items-center space-x-8">
 							<LinkContato
-								href={"https://www.instagram.com/oniongarde/"}
-								label="@OnionGarden"
+								href={"https://www.instagram.com/agrofonsoo/"}
+								label="@agrofonso"
 								imgSrc="/icons/instagram.svg"
 							/>
 							<LinkContato

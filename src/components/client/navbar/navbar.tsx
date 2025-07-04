@@ -30,7 +30,7 @@ export const NavBar = () => {
 	return (
 		<nav
 			ref={navRef}
-			className="flex flex-wrap items-center justify-between py-3 px-10"
+			className="flex flex-wrap items-center justify-between py-1 px-10"
 		>
 			<LogoComponent />
 			<div className="flex md:hidden">

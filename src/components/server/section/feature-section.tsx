@@ -26,7 +26,7 @@ export const FeatureSection = () => {
 						text="Nunca é tarde para aprender, e seguimos
 								evoluindo com a construção da nossa plataforma,
 								nela construiremos uma conexão simples e segura
-								entre nossos clientes e forncedores"
+								entre nossos clientes e fornecedores"
 					/>
 					<FeatureItem
 						icon="/icons/heart.svg"
