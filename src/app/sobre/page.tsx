@@ -47,14 +47,14 @@ export default function Sobre() {
 						</h2>
 						<h3>Nossa Essência: Da Terra da Família Agrofonso</h3>
 						<p>
-							Bem-vindos à Agrofonso! Somos a _agricultura
-							familiar_ que, com as mãos na terra de Canarana,
-							Bahia, transformou um pequeno sonho em uma colheita
-							de sucesso. Desde o início, nossa paixão por
-							cultivar e a dedicação ao solo baiano nos
-							impulsionam a trazer o melhor da fazenda direto para
-							a sua mesa, construindo um legado de trabalho e
-							prosperidade.
+							Bem-vindos à Agrofonso! Somos a{" "}
+							<strong>agricultura familiar</strong> que, com as
+							mãos na terra de Canarana, Bahia, transformou um
+							pequeno sonho em uma colheita de sucesso. Desde o
+							início, nossa paixão por cultivar e a dedicação ao
+							solo baiano nos impulsionam a trazer o melhor da
+							fazenda direto para a sua mesa, construindo um
+							legado de trabalho e prosperidade.
 						</p>
 						<h3>
 							Nossa Jornada: Do Coração da Bahia para a Mesa do
