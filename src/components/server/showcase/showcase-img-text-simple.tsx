@@ -1,20 +1,20 @@
 export type ShowcaseImageWithTextSimpleType = {
-	imgSrc: string;
-	text: string;
+  imgSrc: string;
+  text: string;
 };
 
 export const ShowcaseImageWithTextSimple = ({
-	imgSrc,
-	text,
+  imgSrc,
+  text,
 }: ShowcaseImageWithTextSimpleType) => {
-	return (
-		<div className="bg-main-light dark:bg-main-dark bg-opacity-40 dark:bg-opacity-30 rounded-md p-4 flex-1 group">
-			<div className="px-4 transform transition duration-500 group-hover:scale-110">
-				<div className="flex justify-center">
-					<img src={imgSrc} className="w-12 mb-3" />
-				</div>
-				<h3 className="text-center">{text}</h3>
-			</div>
-		</div>
-	);
+  return (
+    <div className='group flex-1 rounded-md bg-main-light bg-opacity-40 p-4 dark:bg-main-dark dark:bg-opacity-30'>
+      <div className='transform px-4 transition duration-500 group-hover:scale-110'>
+        <div className='flex justify-center'>
+          <img src={imgSrc} className='mb-3 w-12' />
+        </div>
+        <h3 className='text-center'>{text}</h3>
+      </div>
+    </div>
+  );
 };
