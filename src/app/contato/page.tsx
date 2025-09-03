@@ -1,7 +1,6 @@
 import { AdsenseMultiComponent } from "@onion/components/client/google/AdsenseComponent";
 import { InstragramEmbedCustom } from "@onion/components/client/instagram/instagram-embeded";
 import { WaveDiviver } from "@onion/components/server/divider/wave-divider";
-import Image from "next/image";
 import Link, { LinkProps } from "next/link";
 
 type LinkContatoPropsType = LinkProps & {
@@ -22,11 +21,9 @@ const LinkContato = ({
 			target="_blank"
 			className="flex items-center gap-2"
 		>
-			<Image
+			<img
 				alt="Instagram"
 				src={imgSrc}
-				width={36}
-				height={36}
 				className="h-8 w-8"
 			/>
 			{label}

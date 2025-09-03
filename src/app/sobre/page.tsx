@@ -33,11 +33,9 @@ export default function Sobre() {
 				<div className="flex-1 max-sm:order-first">
 					<div className="h-full w-full flex flex-col justify-center items-center space-y-4 px-8 about-container">
 						<h1>
-							<Image
+							<img
 								alt="Logo"
 								src={"/logo/Logo.png"}
-								width={2100}
-								height={1500}
 								className="w-64 md:w-96"
 							/>
 						</h1>

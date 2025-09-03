@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { ReactNode } from "react";
 import { LinkAppearanceButton } from "../link/link-appearance-button";
 
@@ -39,9 +38,7 @@ export const FullHeroSection = ({
 				</section>
 			</div>
 			<div className="hidden lg:flex h-full w-4/12 px-2 items-center">
-				<Image
-					width={960}
-					height={1280}
+				<img
 					src={imgSrc}
 					alt="Ilustrate Image"
 					className="object-cover object-center h-5/6"

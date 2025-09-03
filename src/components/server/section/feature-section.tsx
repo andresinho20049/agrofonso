@@ -1,4 +1,3 @@
-import Image from "next/image";
 
 export const FeatureSection = () => {
 	return (
@@ -36,11 +35,9 @@ export const FeatureSection = () => {
 				</div>
 
 				<div className="lg:col-span-3 hover:scale-110 transform transition duration-500">
-					<Image
+					<img
 						alt="Referência na Bahia"
 						src="/img/tomate_showcase.jpeg"
-						width={1600}
-						height={1200}
 						className="w-full rounded-xl shadow-2xl shadow-black"
 					/>
 				</div>
@@ -58,11 +55,9 @@ type FeatureItemPropsType = {
 const FeatureItem = ({ icon, title, text }: FeatureItemPropsType) => {
 	return (
 		<div className="flex gap-4 items-start hover:scale-110 transform transition duration-500">
-			<Image
+			<img
 				alt={title}
 				src={icon}
-				width={48}
-				height={48}
 				className="flex-shrink-0 h-9 w-9"
 			/>
 			<div>

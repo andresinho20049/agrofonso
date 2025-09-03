@@ -1,6 +1,5 @@
 import { NavBarLink } from "@onion/components/client/navbar/navbar-link";
 import { pages } from "@onion/hooks/usePage";
-import Image from "next/image";
 import Link, { LinkProps } from "next/link";
 import { ReactNode } from "react";
 
@@ -81,11 +80,9 @@ export const FooterComponent = () => {
 										}
 										target="_blank"
 									>
-										<Image
+										<img
 											alt="Instagram"
 											src={"/icons/instagram.svg"}
-											width={36}
-											height={36}
 											className="h-8 w-8"
 										/>
 									</Link>
@@ -95,11 +92,9 @@ export const FooterComponent = () => {
 										}
 										target="_blank"
 									>
-										<Image
+										<img
 											alt="Instagram"
 											src={"/icons/whatsapp.svg"}
-											width={36}
-											height={36}
 											className="h-8 w-8"
 										/>
 									</Link>
@@ -119,11 +114,10 @@ export const FooterComponent = () => {
 					<div className="flex max-sm:flex-col max-sm:space-y-10 justify-between items-center pt-8">
 						<div className="flex flex-col items-center gap-2">
 							<Link href={"https://github.com/andresinho20049"}>
-								<Image
+								<img
 									src="/logo/andresinho20049.png"
-									width={48}
-									height={48}
 									alt="Picture of the author"
+									className="w-14"
 								/>
 							</Link>
 							<CopyrightComponent />

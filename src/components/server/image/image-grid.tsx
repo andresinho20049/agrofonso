@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 type ImageGridItemPropsType = {
 	src: string;
 	height?: number;
@@ -14,11 +12,9 @@ export const ImageGridItem = ({
 	width = 1600,
 }: ImageGridItemPropsType) => {
 	return (
-		<Image
+		<img
 			src={src}
 			alt={alt}
-			width={width}
-			height={height}
 			className="h-full w-full object-cover object-center rounded-xl hover:scale-95 transform transition duration-500 shadow-lg shadow-black"
 		/>
 	);
